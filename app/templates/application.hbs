@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="main">
+  <div class="body">
+    <div class="countdown-box">
+      <div class="hero-text">{{daysUntilEmberConf}}</div>
+      <div class="sub-text">days until</div>
+      <div class="sep"></div>
+      <a href="https://emberconf.com/">
+        <img style="max-width: 120px" src="https://emberconf.com/images/global/emberconf-2019-logo.svg" alt="EmberConf Logo"/>
+      </a>
+    </div>
+  </div>
 
-{{outlet}}
+  <div>
+    <p style="text-align: center;">I was so excited I made a countdown timer! Feel free to add issues/PR's <a href="http://github.com/ryanlabouve/how-many-days-until-emberconf">here</a>.</p>
+  </div>
+</div>
